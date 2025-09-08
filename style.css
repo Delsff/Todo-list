@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 3%;
+}
+h1 {
+  font-family: "Futura pt", serif;
+  color: black;
+}
+h2 {
+  font-family: "Futura pt", serif;
+  color: black;
+}
+h3 {
+  font-family: "Futura pt", serif;
+  color: black;
+}
+input {
+  border-radius: 15px;
+}
+input::placeholder {
+  font-family: "Futura pt", serif;
+}
+button {
+  border-radius: 10px;
+  font-family: "Futura pt", serif;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.task-list {
+  list-style: none;
+}
+h1 {
+  text-align: center;
+}
+.empty-list {
+  text-align: center;
+}
+.img-list {
+  width: 100px;
+}
+.btn-action {
+  width: 35px;
+  height: 35px;
+}
+.btn-action img {
+  width: 100%;
+  pointer-events: none;
+}
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.card {
+  padding: 10px;
+  margin-top: 15px;
+}
+.title-list {
+  font-weight: bold;
+  font-size: 25px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-input {
+  width: 450px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  height: 40px;
+}
+.form button {
+  width: 250px;
+  height: 40px;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.none {
+  display: none;
+}
+.line {
+  text-decoration: line-through;
+  text-decoration-color: green;
+  color: black;
+}
+.delete-line {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  color: black;
+}
+.task-date {
+  display: block;
+  color: black;
+  margin-top: 4px;
+}

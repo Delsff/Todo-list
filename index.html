@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Today's task list</h1>
+      <div class="card">
+        <ul class="task-list">
+          <li class="empty-list">
+            <img src="img/list.png" alt="" class="img-list" />
+            <h2>The list is empty.</h2>
+          </li>
+        </ul>
+        <div class="card">
+          <h3>Add a new task</h3>
+          <form class="form">
+            <input
+              type="text"
+              class="task-input"
+              placeholder="Add a new task"
+            />
+            <button type="submit" class="bth bth-primary">
+              Create a new task
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
