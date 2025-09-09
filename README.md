@@ -15,5 +15,7 @@ Saving state (locally in the browser)
 Minimalistic interface
 
 HTML, CSS, JavaScript
+
 Todo-list/online
+
 [View online](https://dreamy-praline-0a3db3.netlify.app/)
