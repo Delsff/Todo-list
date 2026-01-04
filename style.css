@@ -5,25 +5,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: black;
+  background-color: white;
 }
 .main {
   max-width: 600px;
   margin: 50px auto;
-  background-color: white;
+  background-color: rgb(183, 178, 178);
   border-radius: 3%;
 }
 h1 {
   font-family: "Futura pt", serif;
-  color: black;
+  color: white;
 }
 h2 {
   font-family: "Futura pt", serif;
-  color: black;
+  color: white;
 }
 h3 {
   font-family: "Futura pt", serif;
-  color: black;
+  color: white;
 }
 input {
   border-radius: 15px;
@@ -34,8 +34,8 @@ input::placeholder {
 button {
   border-radius: 10px;
   font-family: "Futura pt", serif;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
   cursor: pointer;
 }
 .task-list {
@@ -102,10 +102,10 @@ h3 {
 .delete-line {
   text-decoration: line-through;
   text-decoration-color: red;
-  color: black;
+  color: white;
 }
 .task-date {
   display: block;
-  color: black;
+  color: white;
   margin-top: 4px;
 }
