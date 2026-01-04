@@ -18,4 +18,4 @@ HTML, CSS, JavaScript
 
 Todo-list/online
 
-[View online](https://dreamy-praline-0a3db3.netlify.app/)
+[View online](https://todolist1674.netlify.app/)
